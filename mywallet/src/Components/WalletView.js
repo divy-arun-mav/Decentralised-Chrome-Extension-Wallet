@@ -74,7 +74,7 @@ function WalletView({
                                     target="_blank"
                                     rel="noreferrer"
                                 >
-                                    money.moralis.io
+                                    here
                                 </a>
                             </p>
                         </>

@@ -1,3 +1,5 @@
+require("dotenv").config();
+
 const Ethereum = {
     hex: '0x1',
     name: 'Ethereum',
@@ -8,7 +10,7 @@ const Ethereum = {
 const MumbaiTestnet = {
     hex: '0x13881',
     name: 'Mumbai Testnet',
-    rpcUrl: '',
+    rpcUrl: process.env.MUMBAI_TESTNET_RPC_URL,
     ticker: "MATIC"
 };
 
